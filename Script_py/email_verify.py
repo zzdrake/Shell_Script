@@ -10,7 +10,7 @@ fromAddress = 'cron@bt.com'
 # 正则表达式用于验证基本的邮箱格式
 regex = r'^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[_a-z0-9-]+)*(\.[a-z]{2,})$'
 
-# 读取 Excel 文件中的数据，显式指定引擎为 openpyxl
+# 这里要处理的文本格式是 excel 还是 csv 根据自己情况来定
 df = pd.read_csv('xxx.csv')
 
 # 假设邮箱列的列名为 "邮箱"
